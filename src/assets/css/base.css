@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC",
+      "Noto Sans SC", "思源黑体", "Microsoft YaHei", "微软雅黑",
+      "Noto Sans CJK SC", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial,
+      sans-serif, "font-emoji";
+  }
+  
+  @font-face {
+    font-family: "font-emoji";
+    src: local("Apple Color Emoji"), local("Segoe UI Emoji"),
+      local("Segoe UI Symbol"), local("Noto Color Emoji");
+  }
+  
+  #app {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+      rgba(179, 14, 10, 0.8) 0%,
+      rgba(179, 14, 10, 1) 78%
+    );
+    /* background: #f03752;
+    background: -webkit-linear-gradient(
+      to right,
+      #de5851,
+      #dd3027,
+      #e62217,
+      #f00e02,
+      #e10e02
+    );
+    background: linear-gradient(
+      to right,
+      #de5851,
+      #dd3027,
+      #e62217,
+      #f00e02,
+      #e10e02
+    ); */
+  }
