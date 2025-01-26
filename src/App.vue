@@ -52,7 +52,7 @@ function playMusic() {
 .main {
     width: 100%;
     height: 100%;
-    background: url('@/assets/img/bg7.webp');
+    background: url('@/assets/img/bg12.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
